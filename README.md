@@ -1,4 +1,6 @@
-# Panel Histórico de Rendimiento en Fórmula 1
+# f1-pit-stop-strategy
+
+**Panel Histórico de Rendimiento en Fórmula 1**
 
 Comparar las estrategias de boxes entre equipos y medir el impacto del pit stop en el resultado final de la carrera.
 
@@ -32,7 +34,7 @@ README.md
 
 ## Estado actual
 
-Preparación y limpieza terminadas. Tengo dos tablas de trabajo: `df_paradas` (una fila por parada) y `df_carrera` (una fila por piloto y carrera), para 285 carreras y 23 equipos.
+Preparación y limpieza terminadas. Tengo dos tablas de trabajo: `df_stops` (una fila por parada) y `df_race` (una fila por piloto y carrera), para 285 carreras y 23 equipos. Columnas renombradas a inglés.
 
 ## Próximos pasos
 
@@ -41,9 +43,10 @@ Fase 3, EDA: tiempo medio de parada por equipo, relación entre cantidad de para
 ## Decisiones de limpieza
 
 - Conservo los 385 pilotos sin paradas. Largaron la carrera; los excluyo solo en los análisis que necesitan paradas.
-- Marco con `parada_valida` las paradas anómalas (límite IQR por carrera) en vez de borrarlas.
-- Agrupo `status` en `Finalizó`, `Doblado` y `No finalizó`.
+- Marco con `valid_stop` las paradas anómalas (límite IQR por carrera) en vez de borrarlas.
+- Agrupo `status` en `status_category`: `Finished`, `Lapped` y `DNF`.
 - Renombro `positionOrder` a `PositionFinal`.
+- Uso nombres de columnas y tablas en inglés, en `snake_case`, para que lleguen listos a SQL y Power BI.
 
 ## Hallazgos
 
