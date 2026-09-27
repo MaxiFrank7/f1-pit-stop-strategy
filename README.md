@@ -38,14 +38,14 @@ Preparación y limpieza terminadas. Tengo dos tablas de trabajo: `df_stops` (una
 
 ## Próximos pasos
 
-Fase 3, EDA: tiempo medio de parada por equipo, relación entre cantidad de paradas y `PositionFinal`, y evolución del tiempo de parada por año.
+Fase 3, EDA: tiempo medio de parada por equipo, relación entre cantidad de paradas y `final_position`, y evolución del tiempo de parada por año.
 
 ## Decisiones de limpieza
 
 - Conservo los 385 pilotos sin paradas. Largaron la carrera; los excluyo solo en los análisis que necesitan paradas.
 - Marco con `valid_stop` las paradas anómalas (límite IQR por carrera) en vez de borrarlas.
 - Agrupo `status` en `status_category`: `Finished`, `Lapped` y `DNF`.
-- Renombro `positionOrder` a `PositionFinal`.
+- Renombro `positionOrder` a `final_position`.
 - Uso nombres de columnas y tablas en inglés, en `snake_case`, para que lleguen listos a SQL y Power BI.
 
 ## Hallazgos
