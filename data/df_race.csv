@@ -1,4 +1,4 @@
-raceId,driverId,constructorId,grid,PositionFinal,points,laps,statusId,year,round,race_name,date,forename,surname,code,constructor_name,status,n_paradas,pit_total_ms,pit_medio_ms,vuelta_primera_parada
+raceId,driverId,constructorId,grid,final_position,points,laps,statusId,year,round,race_name,date,forename,surname,code,constructor_name,status,n_stops,pit_total_ms,pit_mean_ms,first_stop_lap
 841,20,9,1,1,25.0,58,1,2011,1,Australian Grand Prix,2011-03-27,Sebastian,Vettel,VET,Red Bull,Finished,2,46639.0,23319.5,14.0
 841,1,1,2,2,18.0,58,1,2011,1,Australian Grand Prix,2011-03-27,Lewis,Hamilton,HAM,McLaren,Finished,2,46426.0,23213.0,16.0
 841,808,4,6,3,15.0,58,1,2011,1,Australian Grand Prix,2011-03-27,Vitaly,Petrov,PET,Renault,Finished,2,50218.0,25109.0,16.0

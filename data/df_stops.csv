@@ -1,4 +1,4 @@
-raceId,driverId,stop,pit_lap,pit_ms,constructorId,grid,PositionFinal,points,laps,statusId,year,round,race_name,date,forename,surname,code,constructor_name,status
+raceId,driverId,stop,pit_lap,pit_ms,constructorId,grid,final_position,points,laps,statusId,year,round,race_name,date,forename,surname,code,constructor_name,status
 841,153,1,1,26898,5,12,11,0.0,57,11,2011,1,Australian Grand Prix,2011-03-27,Jaime,Alguersuari,ALG,Toro Rosso,+1 Lap
 841,30,1,1,25021,131,11,19,0.0,19,4,2011,1,Australian Grand Prix,2011-03-27,Michael,Schumacher,MSC,Mercedes,Collision
 841,17,1,11,23426,9,3,5,10.0,58,1,2011,1,Australian Grand Prix,2011-03-27,Mark,Webber,WEB,Red Bull,Finished
